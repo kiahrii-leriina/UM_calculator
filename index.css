@@ -5,6 +5,7 @@ table{
     background: black;
     height: 70vh;
     width: 30vw;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 1);
 }
 table input{
     height: 100%;
@@ -26,10 +27,10 @@ tbody th:active{
     transform: scale(0.95);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 430px) {
    table{
-    height: 70vh;
-    width: 50vw;
+    height: 80vh;
+    width: 85vw;
    }
     
 }
